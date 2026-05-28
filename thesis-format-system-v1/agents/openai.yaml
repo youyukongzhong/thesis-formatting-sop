@@ -1,0 +1,7 @@
+interface:
+  display_name: "论文修改系统"
+  short_description: "按学校规范重构与终检毕业论文格式"
+  default_prompt: "Use $thesis-format-system-v1 to standardize this thesis docx against the school requirements."
+
+policy:
+  allow_implicit_invocation: true
