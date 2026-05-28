@@ -17,7 +17,6 @@
 ├── README.md                    ← 你是这里
 ├── 01_SOP.md                    ← 核心方法：9 步执行顺序 + 异常处理
 ├── 02_终检清单.md               ← 11 大类 40+ 项，交付前逐条核对
-├── 03_服务边界与交付规范.md        ← 能做什么、不能做什么、怎么定价
 ├── 04_路线图.md                  ← 未来自动化方向
 ├── format_thesis_sop_v1.ps1     ← PowerShell 自动化脚本（模板，需自定义规则）
 ├── thesis-format-system-v1/     ← Codex Skill，AI 可直接调用
@@ -42,7 +41,7 @@
 
 > 使用 thesis-format-system-v1 处理这篇论文，严格遵循 01_SOP.md 的执行顺序。
 
-AI 会读取 SOP 流程、终检清单、服务边界，然后执行。
+AI 会读取 SOP 流程和终检清单，然后执行。
 
 如果你用的是 Codex，`thesis-format-system-v1/` 下已经配好了 Skill 文件，可以直接引用 `$thesis-format-system-v1`。
 
@@ -72,16 +71,7 @@ AI 会读取 SOP 流程、终检清单、服务边界，然后执行。
 
 ---
 
-## 这个系统和"内容资产系统"的关系
+## 关于作者
 
-这个 SOP 是 `个人内容资产系统` 中的一个资产（L4 工具/模板），完整背景见：
-
-[个人内容资产系统介绍](https://github.com/your-username/personal-content-asset-system)
-
-简单说：内容资产系统负责"想 idea、做内容、变现"，这个 SOP 是其中已经跑通的一个真实案例。
-
----
-
-## 许可
-
-完全开源，随便用。
+如果你不想自己折腾论文格式，可以找我帮忙跑一遍这套流程。
+联系方式见博客：[cybssky.com](https://cybssky.com)
